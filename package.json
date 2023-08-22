@@ -1,0 +1,19 @@
+{
+  "name": "due-date-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pál Sára",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --esm ./src/index.ts",
+    "test": "mocha -r ts-node/register src/tests/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
